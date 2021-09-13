@@ -21,7 +21,7 @@
  * https://github.com/radianceteam/dex2front
 
 ## DEX-core-smart-contracts architecture with sharding optimization
-![DEX-core-smart-contracts-architecture](DEX-core-smart-contracts-architecture.png)
+![DEX-core-smart-contracts-architecture](docs/DEX-core-smart-contracts-architecture.png)
 https://docs.google.com/drawings/d/176G8UEKKl_HBiC55Fq_2GYG0pdHdxxJrvAhbCLuFzhM/edit?usp=sharing
 
 ## DEX-core-smart-contracts gas flow schemes
