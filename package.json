@@ -1,0 +1,40 @@
+{
+    "name": "radiance-dex-core",
+    "version": "0.2.0",
+    "description": "Radiance DEX core smartcontracts",
+    "main": "",
+    "scripts": {
+        "start": "index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@tonclient/appkit": "^0.2.0",
+        "@tonclient/core": "^1.16.0",
+        "@tonclient/lib-node": "^1.16.0",
+        "@tonclient/lib-web": "^1.16.0",
+        "ascii-hex": "^1.0.1",
+        "chai": "^4.3.4",
+        "cli-color": "^2.0.0",
+        "coingecko-api": "^1.0.10",
+        "dotenv": "^9.0.2",
+        "express": "^4.17.1",
+        "hex2ascii": "^0.0.3",
+        "mocha": "^9.0.0",
+        "mocha-logger": "^1.0.7",
+        "module-alias": "^2.2.2",
+        "monet": "^0.9.2",
+        "ramda": "^0.27.1"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.31"
+    },
+    "_moduleAliases": {
+        "@root": ".",
+        "@general-helper": "source/utils/general-util/general.helper.js",
+        "@general-handler": "source/utils/general-util/general.handler.js",
+        "@general": "source/utils/general-util/general.js",
+        "@build-wrapped": "source/build/build-wrapped"
+    }
+}
