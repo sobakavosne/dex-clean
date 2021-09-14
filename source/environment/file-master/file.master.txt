@@ -1,0 +1,15 @@
+-- To recompile, rewrap and redecode:
+
+$node source/environment/file-master/file.master.tool.js
+
+-- To recompile:
+
+$node source/environment/file-master/sol-compiler/sol.compiler.tool.js
+
+-- To rewrap:
+
+$node source/environment/file-master/abi-wrapper/abi.wrapper.tool.js
+
+-- To redecode:
+
+$node source/environment/file-master/ton-decoder/ton.decoder.tool.js
